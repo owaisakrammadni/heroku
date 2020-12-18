@@ -14,6 +14,11 @@ server.get("/water", (req, res, next) => {
     res.send("HERE IS WATER");
 
 })
+server.get("/jusic", (req, res, next) => {
+    console.log("some one get manue ");
+    res.send("HERE IS jusic");
+
+})
 server.listen(PORT, () => {
     console.log("server is running on port 3000");
 })
