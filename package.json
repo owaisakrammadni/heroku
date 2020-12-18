@@ -1,0 +1,22 @@
+{
+  "name": "app.js",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "test": "abc",
+    "start": "cls && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no-repo"
+  },
+  "author": "owais",
+  "license": "(MIT)",
+  "keywords": [
+    "script"
+  ],
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
